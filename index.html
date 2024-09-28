@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+        <div class="casino">
+            <div class="roulette">
+                <div class="circle">
+                    <button id="result" onclick="playroulette()">RESULT</button>
+                </div>
+            </div>
+            <div class="table">
+                <div class="num zero">0</div>
+                <div class="numbers">
+                    <div class="r3">
+                        <div class="num n3">3</div>
+                        <div class="num n6">6</div>
+                        <div class="num n9">9</div>
+                        <div class="num n12">12</div>
+                        <div class="num n15">15</div>
+                        <div class="num n18">18</div>
+                        <div class="num n21">21</div>
+                        <div class="num n24">24</div>
+                        <div class="num n27">27</div>
+                        <div class="num n30">30</div>
+                        <div class="num n33">33</div>
+                        <div class="num n36">36</div>
+                    </div>
+                    <div class="r2">
+                        <div class="num n2">2</div>
+                        <div class="num n5">5</div>
+                        <div class="num n8">8</div>
+                        <div class="num n11">11</div>
+                        <div class="num n14">14</div>
+                        <div class="num n17">17</div>
+                        <div class="num n20">20</div>
+                        <div class="num n23">23</div>
+                        <div class="num n26">26</div>
+                        <div class="num n29">29</div>
+                        <div class="num n32">32</div>
+                        <div class="num n35">35</div>
+                    </div>
+                    <div class="r1">
+                        <div class="num n1">1</div>
+                        <div class="num n4">4</div>
+                        <div class="num n7">7</div>
+                        <div class="num n10">10</div>
+                        <div class="num n13">13</div>
+                        <div class="num n16">16</div>
+                        <div class="num n19">19</div>
+                        <div class="num n22">22</div>
+                        <div class="num n25">25</div>
+                        <div class="num n28">28</div>
+                        <div class="num n31">31</div>
+                        <div class="num n34">34</div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+        <div class="data1"> 
+            <div class="wonlost" id="wonlost">wonlost</div>
+            <div class="saldo" id="saldo">saldo</div>
+            <div class="statistics">statistics</div>
+        </div>
+        <div class="data2"> 
+            <div class="lastbets"></div>           
+        </div>
+        <div class="data3">
+            <div class="invest">
+                <input type="number" class="howmuchbet" placeholder="bet $$ " dir="rtl" id="howmuchbet">
+                <select id="coins">
+                    <option value="$100">$ 100.00</option>
+                    <option value="$50">$ 50.00</option>
+                    <option value="$10">$ 10.00</option>
+                    <option value="$5">$ 5.00</option>
+                    <option value="$1" selected>$ 1.00</option>
+                  </select>
+                <button type="button" class="gobetting" id="gobetting">PLAY</button>  
+            </div>
+            <div class="automate">automate</div>
+            <div class="endgame">endgame</div>
+        </div>
+   </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
