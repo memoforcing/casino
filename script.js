@@ -3,28 +3,33 @@ console.log(numberOfCasino);
 const gobetting = document.querySelector('#gobetting');
 var beforebetting = 0; // va être additionné ou soustrait
 var winning = false;
-var howmuchbet = parseInt(0);
+var howmuchbet = 0;
 var sessionStoragelength = 0;
 document.getElementById("result").disabled = true; 
 /*on ne peut pas jouer sans avoir payé avant*/
 
 gobetting.addEventListener('click', () =>{
-    console.log("= gobetting")
+    console.log("= gobetting");
+    console.log("before betting value = " + beforebetting);
     howmuchbet = document.querySelector('#howmuchbet').value;
     console.log("how much bet = " + howmuchbet); 
     document.getElementById("saldo").innerHTML = howmuchbet;
     beforebetting = beforebetting + howmuchbet;
+    saldoatualizado; // il faut actualiser le balance
 })
 
 function saldoatualizado(){
-    if (howmuchbet === 0 || howmuchbet < 0){
+    if (howmuchbet <= 0 || beforebetting <= 0){ // howmuchbet é a aposta inicial beforebetting é o saldo
         document.getElementById("wonlost").innerHTML = "No balance!";
         document.getElementById("result").disabled = true;
+        beforebetting = 0;  // se não zerar recebo valor esquestos não sei pq
+        gobetting = 0; // se não zerar recebo valor esquesitos não sei pq
     } else
         document.getElementById("result").disabled = false; // ele pode jogar agora pq botou dinheiro 
         beforebetting = beforebetting - 1;
         console.log("saldo atualizado = " + beforebetting);
         document.getElementById("saldo").innerHTML = beforebetting;
+        
 }
 
 
