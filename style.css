@@ -1,7 +1,7 @@
 .container{
     background-color: rgb(111, 80, 80);
     width: 900px;
-    height: 600px;
+    height: 550px;
     margin: auto;
     display: flex;
     /*flex-wrap: wrap;*/
@@ -11,7 +11,7 @@
 .casino{
     background-color: rgb(247, 3, 3);
     width: 100%;
-    height: 250px;
+    height: 300px;
     margin: 0;
     display: flex;
 }
@@ -42,19 +42,19 @@
     margin: 0;
     display: flex;
     align-items: center;
-    
+   
 }
 
 .data1{
     background-color: rgb(135, 30, 91);
-    height: 100px;
+    height: 80px;
     display: flex;
     justify-content: space-around;
 }
 
 .data2{
     background-color: rgb(40, 107, 174);
-    height: 100px;
+    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -153,6 +153,130 @@
     height: 100%;
     display: flex;
 }
+/*--------------------------------------------*/
+.thirds{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;    
+}
+.third1{
+    background-color: green;    
+    width: 100%;
+    height: 40%;
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;
+}
+.third2{
+    background-color: green;    
+    width: 100%;
+    height:40%;
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;
+}
+
+.third3{
+    background-color: green;
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;
+}
+
+.thirdE{
+    background-color: green;
+    width: 25%;
+    height: 40%;    
+    padding:25px 0px;
+    
+    border-style: solid;
+    border-width: thin;
+}
+
+/*--------------------------------------------*/
+
+.halfs{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 40%;
+    justify-content: space-around;   
+    border-style: solid;
+    border-width: thin; 
+}
+
+.oneeighteen{
+    background-color: green;
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;
+}
+
+.even{
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;
+}
+
+.redlosange{
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;   
+}
+
+.blacklosange{
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;   
+}
+
+.odd{
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;   
+}
+
+.eighteenthirtysix{
+    width: 100%;
+    height: 40%;    
+    padding:25px 0px;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    border-style: solid;
+    border-width: thin;   
+}
+
+.halfE{
+    background-color: green;
+    width: 50%;
+    height: 40%;    
+    padding:25px 0px;
+    
+    border-style: solid;
+    border-width: thin;
+}
+
 /*--------------------------------------------*/
 .n1{
     width: 8.3%;
@@ -446,6 +570,35 @@
     align-items: center;
     display: flex;
     justify-content: center;
+}
+
+/*--------------------------------------------*/
+.col1{
+    width: 8.4%;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    
+}
+
+.col2{
+    width: 8.4%;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.col3{
+    width: 8.4%;
+    background-image: linear-gradient(rgb(12, 85, 9), rgb(26, 255, 0));
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
 }
 
 
